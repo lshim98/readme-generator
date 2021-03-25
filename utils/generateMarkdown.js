@@ -21,7 +21,7 @@
 
 function generateMarkdown(data) {
   return `
-# ${data.title} ![GitHub package.json version](https://)
+# ${data.title} ![GitHub package.json version](https://img.shields.io/github/package-json/v/lshim98/readme-generator)
   ${data.description}
   # Tables of Contents
   * [Installation](#installation)
