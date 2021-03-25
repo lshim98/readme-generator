@@ -34,3 +34,4 @@ Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
 
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+Github: [LSHIM98](https://api.github.com/users/lshim98)
