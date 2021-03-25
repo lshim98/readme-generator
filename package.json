@@ -1,11 +1,12 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "command line to create a readme file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -15,5 +16,18 @@
     "electron-html-to": "^2.6.0",
     "inquirer": "^6.5.2",
     "open": "^8.0.4"
+=======
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lshim98/readme-generator.git"
+  },
+
+  "author": "Lydia Shim",
+  "license": "MIT",
+  "homepage": "https://github.com/lshim98/readme-generator/",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "inquirer": "^8.0.0"
+>>>>>>> 914930a81c64b5691cec18dd7ae1d65c7092a856
   }
 }

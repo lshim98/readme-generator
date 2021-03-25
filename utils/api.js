@@ -1,5 +1,4 @@
 const axios = require('axios');
-const dotenv = require('dotenv').config();
 const api = {
   getUser(username) {
     return axios
