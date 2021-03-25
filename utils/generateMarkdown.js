@@ -19,9 +19,13 @@
 
 // module.exports = generateMarkdown;
 
+const licenseBadgeLinks = require("./licenseBadges");
+
+// set url for license badge
+data.licenseBadge = licenseBadgeLinks[data.license];
+  
 function generateMarkdown(data) {
-  return `
-# ${data.title} ![GitHub package.json version](https://img.shields.io/github/package-json/v/lshim98/readme-generator)
+  return `# ${data.title} ![GitHub package.json version](https://img.shields.io/github/package-json/v/lshim98/readme-generator)
   ${data.description}
   # Tables of Contents
   * [Installation](#installation)
