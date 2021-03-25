@@ -29,7 +29,7 @@ AS A student, I WANT a functional README generator, SO THAT I can  create a prof
 Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
 
-## Screenshot
+## Demo
 
 
 
