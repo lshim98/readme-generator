@@ -19,63 +19,6 @@ const api = require('./utils/api');
 const markdown = require('./utils/generateMarkdown');
 const util = require("util");
 const writeFileAsync = util.promisify(fs.writeFile);
-// const questions = [
-//     {
-//         type: "input",
-//         message: "What is your GitHub user name?",
-//         name: "username"
-//     },
-//     {
-//         type: "input",
-//         message: "What is your email address?",
-//         name: "email"
-//     },
-//     {
-//         type: "input",
-//         message: "What is your project's title?",
-//         name: "title"
-//     },
-//     {
-//         type: "input",
-//         message: "Enter a short description of your project.",
-//         name: "description"
-//     },
-//     {
-//         type: "list",
-//         message: "What license should your project have?",
-//         name: "license",
-//         choices: [
-//             "MIT",
-//             "Unlicense",
-//             "Apache 2.0",
-//             "GNU v3",
-//             "BSD 3-Clause",
-//             "Mozilla Public License 2.0"
-//         ]
-//     },
-//     {
-//         type: "input",
-//         message: "Enter the installation process",
-//         name: "installation",
-//         default: "npm"
-//     },
-//     {
-//         type: "input",
-//         message: "What command should be run to run tests?",
-//         name: "tests",
-//         default: "npm run test"
-//     },
-//     {
-//         type: "input",
-//         message: "What does the user need to know about using the repository?",
-//         name: "usage"
-//     },
-//     {
-//         type: "input",
-//         message: "What does the user need to know about contributing to the repository?",
-//         name: "contribute"
-//     }
-// ];
 
 const questions = [
     {
@@ -152,7 +95,7 @@ const init = async () => {
         console.log("README.md created in output folder.");
 
     } catch (err) {
-        console.error("Error creating README. File not created.");
+        console.error("Error creating README.md File not created.");
         console.log(err);
     }
 }
@@ -199,8 +142,3 @@ init();
 //                 console.log('err ', err);
 //             });
 //     });
-
-
-// };
-
-// init();
