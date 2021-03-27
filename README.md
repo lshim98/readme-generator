@@ -24,13 +24,14 @@ AS A student, I WANT a functional README generator, SO THAT I can  create a prof
 2. npm install axios
 3. npm install inquirer
 
-user runs node index.js and the application starts
+User runs node index.js and the application starts
 
 Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
 
 ## Instructions
-User is prompt to answer questions. once the questionnaire is completed, a readme file will be generated
+- User is prompt to answer questions
+- Once the questionnaire is completed, a readme file will be generated
 
 
 ## Screenshot
